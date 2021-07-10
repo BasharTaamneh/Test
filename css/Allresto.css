@@ -1,0 +1,114 @@
+*   {
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+header{
+    padding: 15px;
+    background-color:rgb(243,161,44) ;
+    position: sticky;
+    top: 0;
+}
+.hedEl li{
+    display: inline-block;
+    border: 1px solid rgba(245, 245, 245, 0.603);
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 25px;
+    z-index: 2;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    
+    } 
+    .hedEl li:hover{
+        background-color: rgb(251, 251, 251);
+        color: rgba(0, 0, 0, 0.589);
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+    #p1{
+        color: rgb(255, 255, 255);
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        top: -20px;
+        right: 80px;
+        }
+        .hedEl li a{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.774);
+        }
+        .hedEl li a:hover{
+            background-color: rgb(251, 251, 251);
+            color: rgba(0, 0, 0, 0.589);
+            transition: 0.5s;
+        }
+
+.container{
+    width: 90%; 
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+}
+ .para{
+     background: url(/imgs/img4.jpg) no-repeat center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 200px;
+     image-resolution:initial;
+
+ }
+
+
+img {
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+        footer{
+            padding: 20px;
+            background-color: rgba(38, 38, 38, 0.794);
+            width: 100%;
+        }
+        #top li {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid whitesmoke;
+            text-align: center;
+            padding: 5px;
+            margin-left: 105px;
+            margin-bottom: 50px;
+            -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+        }
+        #top li:hover{
+            background-color: rgb(243,161,44);
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+        #icon i{
+            margin-left: 305px;
+        }
+        #icon i:hover{
+            transform: scale(1.5);
+            transition: 0.5s;
+        }
